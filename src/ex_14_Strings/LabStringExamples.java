@@ -7,9 +7,9 @@ public class LabStringExamples {
         String s= "Java";
         char c = s.charAt(2);
         // Index = 0, ->
-        System.out.println(c);
+        System.out.println(c);   //v
 
-        System.out.println(s.codePointAt(0));
+        System.out.println(s.codePointAt(0));  //will give ASCII character valueof 'J'
 
         // CompareToIgnore(Sting sr)
 //        int result = "abc".compareTo("ABC");
@@ -27,7 +27,7 @@ public class LabStringExamples {
         boolean b = "".isEmpty(); // true
         System.out.println(b);
 
-        String s11 = String.join("z-", "Java", "Python");
+        String s11 = String.join("z-", "Java", "Python");   //Javaz-Python
         System.out.println(s11);
 
         String s12 = "Java".replace('a', 'o'); // "Jovo"
